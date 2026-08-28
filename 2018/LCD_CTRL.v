@@ -16,13 +16,15 @@ output reg done;
 reg [9:0] temp;	//ensure overflow doesn't happend 
 reg [7:0] M1,M2,m1,m2,Maximum,Minimum,Aver;//represent Max, Min, Average
 
-reg [2:0] ptrX,ptrY;
+reg [2:0] ptrX,ptrY;// represent current coordinate
 reg [7:0] LUp,RUp,LDown,RDown;
 
 reg [7:0] mem [7:0][7:0];
 
+//FSM 
 reg [1:0] state,NextState;
 parameter [1:0] IDLE=2'b00,READ=2'b01,OPER=2'b10,OUTPUT=2'b11;
+
 integer i,j;
 
 parameter [3:0] Write=4'b0000,
