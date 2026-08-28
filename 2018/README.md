@@ -15,7 +15,7 @@
 | 評估項目 | 數值 / 狀態 | 說明 |
 | :--- | :--- | :--- |
 | **Technology** | TSMC 0.13 µm (`tsmc13_neg.v`) | 大會標準元件庫 |
-| **Clock Period** | 5.0 ns (可替換為你的極限數值) | 無時序違規 (Slack = MET) |
+| **Clock Period** | 7.1 ns (可替換為你的極限數值) | 無時序違規 (Slack = MET) |
 | **Total Cell Area** | `[填入你的 Area]` | 得益於無除法器設計 |
 | **Total Cycles** | `[填入跑完的總 Cycle]` | 執行 Testbench 總耗時 |
 | **Post-sim Status** | **PASS** | Gate-level 驗證通過，無 Unknown |
