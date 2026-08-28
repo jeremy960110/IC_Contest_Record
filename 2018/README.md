@@ -16,7 +16,7 @@
 | 評估項目 | 數值 / 狀態 | 說明 |
 | :--- | :--- | :--- |
 | **Process** | TSMC 0.13 µm | 大會標準元件庫 |
-| **Clock Period** | 7.1 ns | 無時序違規 (Slack = MET) |
+| **Clock Period** | 7.1 ns | 無時序違規 (Slack = 0.00) |
 | **Post-sim Status** | **PASS** | Gate-level 驗證通過，無 Unknown |
 
 ## 目錄結構
