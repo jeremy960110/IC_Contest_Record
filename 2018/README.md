@@ -14,14 +14,14 @@
 
 | 評估項目 | 數值 / 狀態 | 說明 |
 | :--- | :--- | :--- |
-| **Technology** | TSMC 0.13 µm (`tsmc13_neg.v`) | 大會標準元件庫 |
-| **Clock Period** | 7.1 ns (可替換為你的極限數值) | 無時序違規 (Slack = MET) |
+| **Technology** | TSMC 0.13 µm | 大會標準元件庫 |
+| **Clock Period** | 7.1 ns | 無時序違規 (Slack = MET) |
 | **Post-sim Status** | **PASS** | Gate-level 驗證通過，無 Unknown |
 
 ## 目錄結構
 
 ```text
-├──  LCD_CTRL.v       # 核心 Verilog 程式碼
+├── LCD_CTRL.v       # 核心 Verilog 程式碼
 ├── testfixture.v    # 大會提供之 Testbench (未修改路徑)
 ├── syn.tcl          # 合成腳本 (Clock 約束設定)
 │── LCD_CTRL_syn.v   # 合成後之閘級網表 (Gate-level Netlist)
