@@ -24,6 +24,7 @@
 ```text
 ├── LCD_CTRL.v       # 核心 Verilog 程式碼
 ├── testfixture.v    # 大會提供之 Testbench (未修改路徑)
-├── DC_syn.tcl          # 合成腳本 (Clock 約束設定)
+├── DC_syn.tcl       # 合成腳本 (Clock 約束設定)
 │── LCD_CTRL.sdc     # 大會提供的約束檔
+|── *.dat            #測資
 └── README.md
