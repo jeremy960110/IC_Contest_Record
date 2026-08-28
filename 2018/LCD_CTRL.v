@@ -13,8 +13,8 @@ output reg [5:0] IRAM_A;
 output reg busy;
 output reg done;
 
-reg [9:0] temp;
-reg [7:0] M1,M2,m1,m2,Maximum,Minimum,Aver;
+reg [9:0] temp;	//ensure overflow doesn't happend 
+reg [7:0] M1,M2,m1,m2,Maximum,Minimum,Aver;//represent Max, Min, Average
 
 reg [2:0] ptrX,ptrY;
 reg [7:0] LUp,RUp,LDown,RDown;
