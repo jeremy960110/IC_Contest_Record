@@ -1,7 +1,7 @@
 
 # 2018 IC Design Contest - LCD Controller (LCD_CTRL)
 
-此專案為 2018 年台灣大學校院積體電路設計競賽 (IC Design Contest) 大學部 B 組初賽題目的 RTL 實作與時序優化紀錄。本設計成功通過 Pre-sim 與 Post-sim 驗證，並針對極端時鐘週期`<10ns`進行了深度時序優化。
+此專案為 2018 年台灣大學校院積體電路設計競賽 (IC Design Contest) 大學部 B 組初賽題目的 RTL 實作與時序優化紀錄。本設計成功通過 Pre-sim 與 Post-sim 驗證，並針對極端時鐘週期`(<10ns)`進行了深度時序優化。
 
 ## 系統架構設計
 
